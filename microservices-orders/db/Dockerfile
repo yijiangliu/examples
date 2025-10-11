@@ -1,4 +1,4 @@
-FROM alpine:3.4
+FROM alpine:3.22.2
 WORKDIR /db
 ADD customers.sql /db
 ADD customers.table /db
